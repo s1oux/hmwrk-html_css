@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  >
+  <link rel="stylesheet" href="assets/styles/reset.css">
+  <link rel="stylesheet" href="assets/styles/header.css">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link rel="stylesheet" href="assets/styles/content-tabs.css">
+  <title>HTML&amp;CSS</title>
+</head>
+<body>
+  
+  <div class="content-wrp">
+    <header class="header">
+      <a href="#" class="logo-link">
+        <img src="assets/images/bs-logo.png" class="logo" alt="binary logo">
+      </a>
+      <div class="controls">
+        <button class="control-btn control-btn__notifications">
+          <i class="fa fa-bell" aria-hidden="true"></i>
+        </button>
+        <div class="control-btn control-btn__profile">
+          <input id="profile-menu__toggle" type="checkbox">
+          <label 
+            id="menu-label"
+            for="profile-menu__toggle"
+            data-user="A"
+          >
+          </label>
+          <div class="profile-menu">
+            <div class="profile-menu__content">
+              <span data-user="Andrii Fedorchenko" class="username"></span>
+              <hr />
+              <a class="profile-menu__btn" href="#profile">Profile</a>
+              <a class="profile-menu__btn" href="#logout">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <div class="bsa tab-wrapper flip-right">
+        <div class="tab">
+          <div class="tab-cover">
+            <img class="tab-cover-logo" src="assets/images/bsa-logo.jpg" alt="bsa-logo">
+          </div>
+          <div class="tab-content">
+            <a class="join-link-btn" href="https://academy.binary-studio.com/ua/">Join</a>
+          </div>
+        </div>
+      </div>
+      <div class="qa tab-wrapper flip-diagonal-right">
+        <div class="tab">
+          <div class="tab-cover">qa</div>
+          <div class="tab-content">
+            <article class="tab-content__description">
+              Advanced online course focusing on the finer points of QA
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="js tab-wrapper flip-inverted-diagonal-left">
+        <div class="tab">
+          <div class="tab-cover">js</div>
+          <div class="tab-content">
+            <article class="tab-content__description">
+              An online intensive course on building web applications with JavaScript
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="java tab-wrapper flip-inverted-diagonal-right">
+        <div class="tab">
+          <div class="tab-cover">java</div>
+          <div class="tab-content">
+            <article class="tab-content__description">
+              Advanced online course on building web applications with Java
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="php tab-wrapper flip-up">
+        <div class="tab">
+          <div class="tab-cover">php</div>
+          <div class="tab-content">
+            <article class="tab-content__description">
+              An online intensive course on building web applications on php
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="net tab-wrapper flip-down">
+        <div class="tab">
+          <div class="tab-cover">.net</div>
+          <div class="tab-content">
+            <article class="tab-content__description">
+              An online intensive course on building web applications with .NET
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="events tab-wrapper flip-diagonal-left">
+        <div class="tab">
+          <div class="tab-cover">
+            events
+          </div>
+          <div class="tab-content">
+            <article>
+              Інтерв’ю. Це 15-20 хвилинний дзвінок-знайомство у zoom-i з одним із представників команди Binary Studio. Час для співбесіди можна буде забронювати в особистому кабінеті (вкладка меню Інтерв’ю) одразу після оголошення результатів другого етапу, з 25.05 до 01.06, а пройти - у робочі дні з 26 травня до 15 червня. Мотиваційний лист потрібно потрібно обов'язково сабмітнути ДО інтерв'ю.
+            </article>
+            <article>
+              Міні-проект. Цей етап Академії, який дозволить ще краще підготуватися до розробки проекту та не гаяти час, поки ми проводимо інтерв’ю. Завдання - суто практичне, і буде надзвичайно корисним для тих, у кого небагато досвіду. Детальніше про цей етап можна прочитати у нашій статті <a href=http://ixz2.mjt.lu/lnk/AMwAAHNiGU4AAcl6B6AAAK3Z3KsAARrnDgkAJErTAAhCjwBevocuCut2qVDDS4m3WjvFaDEpbQAH2ow/1/qFIk_nbM6Y4rkRY3EWeCjQ/aHR0cHM6Ly9hY2FkZW15LmJpbmFyeS1zdHVkaW8uY29tL2Jsb2cvbWluaS1wcm9la3Qtbm92aWktZXRhcC1ha2FkZW1peWktMjAxOQ>Міні-проект: новий етап Академії</a>. Доступ до міні-проекту буде відкрито у наступний вівторок,  19.05, на його виконання відводиться декілька тижнів.
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="blog tab-wrapper flip-up">
+        <div class="tab">
+          <div class="tab-cover">blog</div>
+          <div class="tab-content">
+            <article>
+              Ділимося інсайтами Академії, досвідом створення world-class проектів та роздумами про життя, код, роботу.
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="tab-wrapper contacts tab-wrapper flip-down">
+        <div class="tab">
+          <div class="tab-cover">contacts</div>
+          <div class="tab-content">
+            <div class="social-links">
+              <div class="link-btn">
+                <a href="https://www.facebook.com/Binary.Studio.Company/">
+                  <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="link-btn">
+                <a href="https://t.me/bsacademy" target="_blank">
+                  <i class="fa fa-telegram fa-lg" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="link-btn">
+                <a href="https://www.instagram.com/binary_studio_academy/" target="_blank">
+                  <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">&copy; Powered for a Homework</footer>
+    <div class="notifications">
+      <div class="notification success">
+        <span class="icon">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+        </span>
+        <label class="notify-msg">
+          <span class="notify-title">Success</span>
+          <span class="notify-text">Profile was updated.</span>
+        </label>
+      </div>
+      <div class="notification danger">
+        <span class="icon">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+        </span>
+        <label class="notify-msg">
+          <span class="notify-title">Error</span>
+          <span class="notify-text">Something went wrong.<br/>
+            Please try again later.</span>
+        </label>
+      </div>
+      <!-- <div class="notification warning">
+        <span class="icon">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+        </span>
+        <label class="notify-msg">
+          <span class="notify-title">Warning</span>
+          <span class="notify-text">Deadline is coming.</span>
+        </label>
+      </div> -->
+    </div>
+  </div>
+</body>
+</html>
